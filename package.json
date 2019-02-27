@@ -1,0 +1,37 @@
+{
+  "name": "@gertt/ws-transform-stream",
+  "version": "0.0.0",
+  "description": "Node.JS websocket Transform stream implementation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GertSallaerts/ws-transform-stream.git"
+  },
+  "keywords": [
+    "ws",
+    "websocket",
+    "transform",
+    "stream"
+  ],
+  "author": "Gert Sallaerts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GertSallaerts/ws-transform-stream/issues"
+  },
+  "homepage": "https://github.com/GertSallaerts/ws-transform-stream#readme",
+  "dependencies": {
+    "p-queue": "^3.1.0",
+    "ws": "^6.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
