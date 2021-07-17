@@ -5,7 +5,13 @@ A transformer for websocket streams.
 ## Usage
 
 ```sh
-npm install --save @gertsallaerts/ws-transform-stream
+yarn add @gertt/ws-transform-stream
+```
+
+or
+
+```sh
+npm install @gertt/ws-transform-stream
 ```
 
 In your code:
